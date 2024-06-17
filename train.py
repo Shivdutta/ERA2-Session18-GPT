@@ -9,7 +9,7 @@ from model import BigramLanguageModel
 # hyperparameters
 batch_size = 64 # no. of independent sequences processes in parallel
 block_size = 256 #length of random data size to be trained. (possibly also called context length)
-max_iters = 5000
+max_iters = 4500
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cpu'
